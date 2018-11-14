@@ -1,5 +1,6 @@
 server:
   port: 1667
+
 spring:
   profiles:
     active: debug
