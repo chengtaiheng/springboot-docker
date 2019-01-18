@@ -12,5 +12,5 @@ docker run \
 	-t \
 	-p 1667:1667 \
 	--name chth-springboot-docker \
-	-v /home/chth/springboot-docker/logs:/chth \
+	-v /docker_project/springboot-docker/logs:/chth \
 	chth/springboot-docker:1.0.0 /bin/bash
